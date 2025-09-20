@@ -29,7 +29,8 @@
     function sendToBot() {
       if (tg) {
         tg.sendData(JSON.stringify({ stock: "AAPL", price: 123.45 }));
-        tg.close();
+        // tg.close();
+        alert("Sent data to bot!");
       } else {
         alert("Not in Telegram WebApp context!");
       }
