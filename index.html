@@ -1,45 +1,61 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/telegram_algo_trader_llm/vite.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Algo Trader LLM</title>
-  <script type="module" crossorigin src="/telegram_algo_trader_llm/assets/index-Cw1Sbbej.js"></script>
-  <link rel="stylesheet" crossorigin href="/telegram_algo_trader_llm/assets/index-Dtn62Xmo.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Telegram WebApp Test</title>
 </head>
 
 <body>
-  <div id="root"></div>
+  <h2>📊 Stock Analysis WebApp</h2>
+
+  <label>Stock:</label>
+  <select id="stock">
+    <option value="RELIANCE">RELIANCE</option>
+    <option value="INFY">INFY</option>
+    <option value="TCS">TCS</option>
+    <option value="HDFCBANK">HDFC Bank</option>
+  </select>
+
+  <br><br>
+  <label>Entry Price:</label>
+  <input type="number" id="price" step="0.01">
+
+  <br><br>
+  <button onclick="sendToBot()">Send to Bot</button>
 
   <script>
     let tg = null;
 
-    // poll until Telegram.WebApp exists
+    // Poll until Telegram WebApp is available
     const interval = setInterval(() => {
       if (window.Telegram && window.Telegram.WebApp) {
-        window.Telegram.WebApp.ready();
         tg = window.Telegram.WebApp;
+        tg.ready();
         clearInterval(interval);
         console.log("Telegram WebApp ready!");
       }
     }, 100);
 
     function sendToBot() {
+      const stock = document.getElementById("stock").value;
+      const price = parseFloat(document.getElementById("price").value);
+
+      if (!price) {
+        alert("Please enter a price");
+        return;
+      }
+
       if (tg) {
-        tg.sendData(JSON.stringify({ stock: "AAPL", price: 123.45 }));
-        // tg.close();
-        alert("Sent data to bot!");
+        tg.sendData(JSON.stringify({ stock, price }));
+        tg.close(); // optional: close WebApp after sending
       } else {
-        alert("Not in Telegram WebApp context!");
+        alert("Not in Telegram WebApp context! (Open via bot button on mobile)");
+        console.log({ stock, price });
       }
     }
   </script>
-
-  <button onclick="sendToBot()">Send to Bot</button>
-
-
 </body>
 
 </html>
