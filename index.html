@@ -14,15 +14,30 @@
   <div id="root"></div>
 
   <script>
+    let tg = null;
+
+    // poll until Telegram.WebApp exists
+    const interval = setInterval(() => {
+      if (window.Telegram && window.Telegram.WebApp) {
+        window.Telegram.WebApp.ready();
+        tg = window.Telegram.WebApp;
+        clearInterval(interval);
+        console.log("Telegram WebApp ready!");
+      }
+    }, 100);
+
     function sendToBot() {
-      if (window.Telegram && Telegram.WebApp) {
-        Telegram.WebApp.sendData(JSON.stringify({ stock: "AAPL", price: 123.45 }));
+      if (tg) {
+        tg.sendData(JSON.stringify({ stock: "AAPL", price: 123.45 }));
+        tg.close();
       } else {
         alert("Not in Telegram WebApp context!");
       }
     }
   </script>
+
   <button onclick="sendToBot()">Send to Bot</button>
+
 
 </body>
 
