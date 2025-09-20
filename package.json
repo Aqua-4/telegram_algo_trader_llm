@@ -1,9 +1,9 @@
 {
   "name": "telegram_algo_trader_webapp",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
-  "homepage": "https://Aqua-4.github.io/telegram_algo_trader_llm",
+  "homepage": "https://aqua-4.github.io/telegram_algo_trader_llm/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
