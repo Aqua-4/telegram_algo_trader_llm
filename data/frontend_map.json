@@ -1,0 +1,1677 @@
+[
+  {
+    "ticker": "PVSL",
+    "category": "Consumer Discretionary",
+    "subcategory": "Four Wheelers"
+  },
+  {
+    "ticker": "MARUTI",
+    "category": "Consumer Discretionary",
+    "subcategory": "Four Wheelers"
+  },
+  {
+    "ticker": "M&M",
+    "category": "Consumer Discretionary",
+    "subcategory": "Four Wheelers"
+  },
+  {
+    "ticker": "TATAMOTORS",
+    "category": "Consumer Discretionary",
+    "subcategory": "Four Wheelers"
+  },
+  {
+    "ticker": "HYUNDAI",
+    "category": "Consumer Discretionary",
+    "subcategory": "Four Wheelers"
+  },
+  {
+    "ticker": "FORCEMOT",
+    "category": "Consumer Discretionary",
+    "subcategory": "Four Wheelers"
+  },
+  {
+    "ticker": "INDUSINDBK",
+    "category": "Financials",
+    "subcategory": "Private Banks"
+  },
+  {
+    "ticker": "HDFCBANK",
+    "category": "Financials",
+    "subcategory": "Private Banks"
+  },
+  {
+    "ticker": "ICICIBANK",
+    "category": "Financials",
+    "subcategory": "Private Banks"
+  },
+  {
+    "ticker": "KOTAKBANK",
+    "category": "Financials",
+    "subcategory": "Private Banks"
+  },
+  {
+    "ticker": "AXISBANK",
+    "category": "Financials",
+    "subcategory": "Private Banks"
+  },
+  {
+    "ticker": "IDBI",
+    "category": "Financials",
+    "subcategory": "Private Banks"
+  },
+  {
+    "ticker": "SBIN",
+    "category": "Financials",
+    "subcategory": "Public Banks"
+  },
+  {
+    "ticker": "BANKBARODA",
+    "category": "Financials",
+    "subcategory": "Public Banks"
+  },
+  {
+    "ticker": "PNB",
+    "category": "Financials",
+    "subcategory": "Public Banks"
+  },
+  {
+    "ticker": "UNIONBANK",
+    "category": "Financials",
+    "subcategory": "Public Banks"
+  },
+  {
+    "ticker": "CANBK",
+    "category": "Financials",
+    "subcategory": "Public Banks"
+  },
+  {
+    "ticker": "INDIANB",
+    "category": "Financials",
+    "subcategory": "Public Banks"
+  },
+  {
+    "ticker": "ASIANPAINT",
+    "category": "Materials",
+    "subcategory": "Paints"
+  },
+  {
+    "ticker": "BERGEPAINT",
+    "category": "Materials",
+    "subcategory": "Paints"
+  },
+  {
+    "ticker": "KANSAINER",
+    "category": "Materials",
+    "subcategory": "Paints"
+  },
+  {
+    "ticker": "INDIGOPNTS",
+    "category": "Materials",
+    "subcategory": "Paints"
+  },
+  {
+    "ticker": "SIRCA",
+    "category": "Materials",
+    "subcategory": "Paints"
+  },
+  {
+    "ticker": "TECHM",
+    "category": "Information Technology",
+    "subcategory": "IT Services & Consulting"
+  },
+  {
+    "ticker": "TCS",
+    "category": "Information Technology",
+    "subcategory": "IT Services & Consulting"
+  },
+  {
+    "ticker": "INFY",
+    "category": "Information Technology",
+    "subcategory": "IT Services & Consulting"
+  },
+  {
+    "ticker": "HCLTECH",
+    "category": "Information Technology",
+    "subcategory": "IT Services & Consulting"
+  },
+  {
+    "ticker": "WIPRO",
+    "category": "Information Technology",
+    "subcategory": "IT Services & Consulting"
+  },
+  {
+    "ticker": "LT",
+    "category": "Industrials",
+    "subcategory": "Green Hydrogen"
+  },
+  {
+    "ticker": "BAJAJFINSV",
+    "category": "Financials",
+    "subcategory": "Insurance"
+  },
+  {
+    "ticker": "LICI",
+    "category": "Financials",
+    "subcategory": "Insurance"
+  },
+  {
+    "ticker": "SBILIFE",
+    "category": "Financials",
+    "subcategory": "Insurance"
+  },
+  {
+    "ticker": "HDFCLIFE",
+    "category": "Financials",
+    "subcategory": "Insurance"
+  },
+  {
+    "ticker": "ICICIGI",
+    "category": "Financials",
+    "subcategory": "Insurance"
+  },
+  {
+    "ticker": "ICICIPRULI",
+    "category": "Financials",
+    "subcategory": "Insurance"
+  },
+  {
+    "ticker": "BAIDFIN",
+    "category": "Financials",
+    "subcategory": "Consumer Finance"
+  },
+  {
+    "ticker": "HEROMOTOCO",
+    "category": "Consumer Discretionary",
+    "subcategory": "Two Wheelers"
+  },
+  {
+    "ticker": "BAJAJ-AUTO",
+    "category": "Consumer Discretionary",
+    "subcategory": "Two Wheelers"
+  },
+  {
+    "ticker": "TVSMOTOR",
+    "category": "Consumer Discretionary",
+    "subcategory": "Two Wheelers"
+  },
+  {
+    "ticker": "OLAELEC",
+    "category": "Consumer Discretionary",
+    "subcategory": "Two Wheelers"
+  },
+  {
+    "ticker": "MAHSCOOTER",
+    "category": "Consumer Discretionary",
+    "subcategory": "Two Wheelers"
+  },
+  {
+    "ticker": "ATHERENERG",
+    "category": "Consumer Discretionary",
+    "subcategory": "Two Wheelers"
+  },
+  {
+    "ticker": "LTIM",
+    "category": "Information Technology",
+    "subcategory": "IT Services & Consulting"
+  },
+  {
+    "ticker": "TATACONSUM",
+    "category": "Consumer Staples",
+    "subcategory": "Tea & Coffee"
+  },
+  {
+    "ticker": "BBTC",
+    "category": "Consumer Staples",
+    "subcategory": "Tea & Coffee"
+  },
+  {
+    "ticker": "CCL",
+    "category": "Consumer Staples",
+    "subcategory": "Tea & Coffee"
+  },
+  {
+    "ticker": "DYNPRO",
+    "category": "Materials",
+    "subcategory": "Commodity Chemicals"
+  },
+  {
+    "ticker": "ASPINWALL",
+    "category": "Consumer Staples",
+    "subcategory": "Tea & Coffee"
+  },
+  {
+    "ticker": "GOODRICKE",
+    "category": "Consumer Staples",
+    "subcategory": "Tea & Coffee"
+  },
+  {
+    "ticker": "HINDUNILVR",
+    "category": "Consumer Staples",
+    "subcategory": "FMCG - Household Products"
+  },
+  {
+    "ticker": "CELLO",
+    "category": "Consumer Staples",
+    "subcategory": "FMCG - Household Products"
+  },
+  {
+    "ticker": "JYOTHYLAB",
+    "category": "Consumer Staples",
+    "subcategory": "FMCG - Household Products"
+  },
+  {
+    "ticker": "PQIF",
+    "category": "Consumer Staples",
+    "subcategory": "FMCG - Household Products"
+  },
+  {
+    "ticker": "MKPL",
+    "category": "Consumer Staples",
+    "subcategory": "FMCG - Household Products"
+  },
+  {
+    "ticker": "RBS",
+    "category": "Consumer Staples",
+    "subcategory": "FMCG - Household Products"
+  },
+  {
+    "ticker": "BRITANNIA",
+    "category": "Consumer Staples",
+    "subcategory": "FMCG - Foods"
+  },
+  {
+    "ticker": "NESTLEIND",
+    "category": "Consumer Staples",
+    "subcategory": "FMCG - Foods"
+  },
+  {
+    "ticker": "VMM",
+    "category": "Consumer Staples",
+    "subcategory": "FMCG - Foods"
+  },
+  {
+    "ticker": "ADANIENT",
+    "category": "Industrials",
+    "subcategory": "Commodities Trading"
+  },
+  {
+    "ticker": "HATSUN",
+    "category": "Consumer Staples",
+    "subcategory": "FMCG - Foods"
+  },
+  {
+    "ticker": "BIKAJI",
+    "category": "Consumer Staples",
+    "subcategory": "FMCG - Foods"
+  },
+  {
+    "ticker": "GRASIM",
+    "category": "Materials",
+    "subcategory": "Cement"
+  },
+  {
+    "ticker": "ULTRACEMCO",
+    "category": "Materials",
+    "subcategory": "Cement"
+  },
+  {
+    "ticker": "AMBUJACEM",
+    "category": "Materials",
+    "subcategory": "Cement"
+  },
+  {
+    "ticker": "SHREECEM",
+    "category": "Materials",
+    "subcategory": "Cement"
+  },
+  {
+    "ticker": "JKCEMENT",
+    "category": "Materials",
+    "subcategory": "Cement"
+  },
+  {
+    "ticker": "DALBHARAT",
+    "category": "Materials",
+    "subcategory": "Cement"
+  },
+  {
+    "ticker": "BAJFINANCE",
+    "category": "Financials",
+    "subcategory": "Consumer Finance"
+  },
+  {
+    "ticker": "JIOFIN",
+    "category": "Financials",
+    "subcategory": "Consumer Finance"
+  },
+  {
+    "ticker": "CHOLAFIN",
+    "category": "Financials",
+    "subcategory": "Consumer Finance"
+  },
+  {
+    "ticker": "SHRIRAMFIN",
+    "category": "Financials",
+    "subcategory": "Consumer Finance"
+  },
+  {
+    "ticker": "MUTHOOTFIN",
+    "category": "Financials",
+    "subcategory": "Consumer Finance"
+  },
+  {
+    "ticker": "BAJAJHFL",
+    "category": "Financials",
+    "subcategory": "Consumer Finance"
+  },
+  {
+    "ticker": "RELIANCE",
+    "category": "Energy",
+    "subcategory": "Oil & Gas - Refining & Marketing"
+  },
+  {
+    "ticker": "IOC",
+    "category": "Energy",
+    "subcategory": "Oil & Gas - Refining & Marketing"
+  },
+  {
+    "ticker": "BPCL",
+    "category": "Energy",
+    "subcategory": "Oil & Gas - Refining & Marketing"
+  },
+  {
+    "ticker": "HINDPETRO",
+    "category": "Energy",
+    "subcategory": "Oil & Gas - Refining & Marketing"
+  },
+  {
+    "ticker": "MRPL",
+    "category": "Energy",
+    "subcategory": "Oil & Gas - Refining & Marketing"
+  },
+  {
+    "ticker": "CHENNPETRO",
+    "category": "Energy",
+    "subcategory": "Oil & Gas - Refining & Marketing"
+  },
+  {
+    "ticker": "HINDALCO",
+    "category": "Materials",
+    "subcategory": "Metals - Aluminium"
+  },
+  {
+    "ticker": "NATIONALUM",
+    "category": "Materials",
+    "subcategory": "Metals - Aluminium"
+  },
+  {
+    "ticker": "MAANALU",
+    "category": "Materials",
+    "subcategory": "Metals - Aluminium"
+  },
+  {
+    "ticker": "MMP",
+    "category": "Materials",
+    "subcategory": "Metals - Aluminium"
+  },
+  {
+    "ticker": "BAHETI",
+    "category": "Materials",
+    "subcategory": "Metals - Aluminium"
+  },
+  {
+    "ticker": "EUROBOND",
+    "category": "Materials",
+    "subcategory": "Metals - Aluminium"
+  },
+  {
+    "ticker": "APOLLOHOSP",
+    "category": "Health Care",
+    "subcategory": "Hospitals & Diagnostic Centres"
+  },
+  {
+    "ticker": "MAXHEALTH",
+    "category": "Health Care",
+    "subcategory": "Hospitals & Diagnostic Centres"
+  },
+  {
+    "ticker": "FORTIS",
+    "category": "Health Care",
+    "subcategory": "Hospitals & Diagnostic Centres"
+  },
+  {
+    "ticker": "NH",
+    "category": "Health Care",
+    "subcategory": "Hospitals & Diagnostic Centres"
+  },
+  {
+    "ticker": "MEDANTA",
+    "category": "Health Care",
+    "subcategory": "Hospitals & Diagnostic Centres"
+  },
+  {
+    "ticker": "ASTERDM",
+    "category": "Health Care",
+    "subcategory": "Hospitals & Diagnostic Centres"
+  },
+  {
+    "ticker": "TATASTEEL",
+    "category": "Materials",
+    "subcategory": "Largecap"
+  },
+  {
+    "ticker": "JSWSTEEL",
+    "category": "Materials",
+    "subcategory": "Largecap"
+  },
+  {
+    "ticker": "JINDALSTEL",
+    "category": "Materials",
+    "subcategory": "Midcap"
+  },
+  {
+    "ticker": "LLOYDSME",
+    "category": "Materials",
+    "subcategory": "Midcap"
+  },
+  {
+    "ticker": "BHARATFORG",
+    "category": "Materials",
+    "subcategory": "EV"
+  },
+  {
+    "ticker": "JSL",
+    "category": "Materials",
+    "subcategory": "Midcap"
+  },
+  {
+    "ticker": "NTPC",
+    "category": "Utilities",
+    "subcategory": "Power Generation"
+  },
+  {
+    "ticker": "ADANIPOWER",
+    "category": "Utilities",
+    "subcategory": "Power Generation"
+  },
+  {
+    "ticker": "ENRIN",
+    "category": "Utilities",
+    "subcategory": "Power Generation"
+  },
+  {
+    "ticker": "JSWENERGY",
+    "category": "Utilities",
+    "subcategory": "Power Generation"
+  },
+  {
+    "ticker": "RPOWER",
+    "category": "Utilities",
+    "subcategory": "Power Generation"
+  },
+  {
+    "ticker": "CESC",
+    "category": "Utilities",
+    "subcategory": "Power Generation"
+  },
+  {
+    "ticker": "EICHERMOT",
+    "category": "Industrials",
+    "subcategory": "Trucks & Buses"
+  },
+  {
+    "ticker": "ASHOKLEY",
+    "category": "Industrials",
+    "subcategory": "Trucks & Buses"
+  },
+  {
+    "ticker": "SMLISUZU",
+    "category": "Industrials",
+    "subcategory": "Trucks & Buses"
+  },
+  {
+    "ticker": "ACGL",
+    "category": "Industrials",
+    "subcategory": "Trucks & Buses"
+  },
+  {
+    "ticker": "TITAN",
+    "category": "Consumer Discretionary",
+    "subcategory": "Precious Metals, Jewellery & Watches"
+  },
+  {
+    "ticker": "KALYANKJIL",
+    "category": "Consumer Discretionary",
+    "subcategory": "Precious Metals, Jewellery & Watches"
+  },
+  {
+    "ticker": "PCJEWELLER",
+    "category": "Consumer Discretionary",
+    "subcategory": "Precious Metals, Jewellery & Watches"
+  },
+  {
+    "ticker": "PNGJL",
+    "category": "Consumer Discretionary",
+    "subcategory": "Precious Metals, Jewellery & Watches"
+  },
+  {
+    "ticker": "ETHOSLTD",
+    "category": "Consumer Discretionary",
+    "subcategory": "Precious Metals, Jewellery & Watches"
+  },
+  {
+    "ticker": "PJL",
+    "category": "Consumer Discretionary",
+    "subcategory": "Precious Metals, Jewellery & Watches"
+  },
+  {
+    "ticker": "BHARTIARTL",
+    "category": "Communication Services",
+    "subcategory": "Telecom Services"
+  },
+  {
+    "ticker": "BHARTIHEXA",
+    "category": "Communication Services",
+    "subcategory": "Telecom Services"
+  },
+  {
+    "ticker": "IDEA",
+    "category": "Communication Services",
+    "subcategory": "Telecom Services"
+  },
+  {
+    "ticker": "TATACOMM",
+    "category": "Communication Services",
+    "subcategory": "Telecom Services"
+  },
+  {
+    "ticker": "TTML",
+    "category": "Communication Services",
+    "subcategory": "Telecom Services"
+  },
+  {
+    "ticker": "MTNL",
+    "category": "Communication Services",
+    "subcategory": "Telecom Services"
+  },
+  {
+    "ticker": "MMTC",
+    "category": "Industrials",
+    "subcategory": "Commodities Trading"
+  },
+  {
+    "ticker": "MSTCLTD",
+    "category": "Industrials",
+    "subcategory": "Commodities Trading"
+  },
+  {
+    "ticker": "BPAGRI",
+    "category": "Industrials",
+    "subcategory": "Commodities Trading"
+  },
+  {
+    "ticker": "YSL",
+    "category": "Industrials",
+    "subcategory": "Commodities Trading"
+  },
+  {
+    "ticker": "ALKALI",
+    "category": "Materials",
+    "subcategory": "Commodity Chemicals"
+  },
+  {
+    "ticker": "ONGC",
+    "category": "Energy",
+    "subcategory": "Oil & Gas - Exploration & Production"
+  },
+  {
+    "ticker": "OIL",
+    "category": "Energy",
+    "subcategory": "Oil & Gas - Exploration & Production"
+  },
+  {
+    "ticker": "HINDOILEXP",
+    "category": "Energy",
+    "subcategory": "Oil & Gas - Exploration & Production"
+  },
+  {
+    "ticker": "ASIANENE",
+    "category": "Energy",
+    "subcategory": "Oil & Gas - Exploration & Production"
+  },
+  {
+    "ticker": "SELAN",
+    "category": "Energy",
+    "subcategory": "Oil & Gas - Exploration & Production"
+  },
+  {
+    "ticker": "GNRL",
+    "category": "Energy",
+    "subcategory": "Oil & Gas - Exploration & Production"
+  },
+  {
+    "ticker": "ADANIPORTS",
+    "category": "Industrials",
+    "subcategory": "Ports"
+  },
+  {
+    "ticker": "JSWINFRA",
+    "category": "Industrials",
+    "subcategory": "Ports"
+  },
+  {
+    "ticker": "GPPL",
+    "category": "Industrials",
+    "subcategory": "Ports"
+  },
+  {
+    "ticker": "NATHUEC",
+    "category": "Industrials",
+    "subcategory": "Ports"
+  },
+  {
+    "ticker": "SUNPHARMA",
+    "category": "Health Care",
+    "subcategory": "Pharmaceuticals"
+  },
+  {
+    "ticker": "CIPLA",
+    "category": "Health Care",
+    "subcategory": "Pharmaceuticals"
+  },
+  {
+    "ticker": "DRREDDY",
+    "category": "Health Care",
+    "subcategory": "Pharmaceuticals"
+  },
+  {
+    "ticker": "TORNTPHARM",
+    "category": "Health Care",
+    "subcategory": "Pharmaceuticals"
+  },
+  {
+    "ticker": "ZENITHHE",
+    "category": "Health Care",
+    "subcategory": "Pharmaceuticals"
+  },
+  {
+    "ticker": "MANKIND",
+    "category": "Health Care",
+    "subcategory": "Pharmaceuticals"
+  },
+  {
+    "ticker": "ITC",
+    "category": "Consumer Staples",
+    "subcategory": "FMCG - Tobacco"
+  },
+  {
+    "ticker": "GODFRYPHLP",
+    "category": "Consumer Staples",
+    "subcategory": "FMCG - Tobacco"
+  },
+  {
+    "ticker": "ELITECON",
+    "category": "Consumer Staples",
+    "subcategory": "FMCG - Tobacco"
+  },
+  {
+    "ticker": "VSTIND",
+    "category": "Consumer Staples",
+    "subcategory": "FMCG - Tobacco"
+  },
+  {
+    "ticker": "NTCIND",
+    "category": "Consumer Staples",
+    "subcategory": "FMCG - Tobacco"
+  },
+  {
+    "ticker": "GOLDENTOBC",
+    "category": "Consumer Staples",
+    "subcategory": "FMCG - Tobacco"
+  },
+  {
+    "ticker": "DIVISLAB",
+    "category": "Health Care",
+    "subcategory": "Labs & Life Sciences Services"
+  },
+  {
+    "ticker": "SYNGENE",
+    "category": "Health Care",
+    "subcategory": "Labs & Life Sciences Services"
+  },
+  {
+    "ticker": "AARTIPHARM",
+    "category": "Health Care",
+    "subcategory": "Labs & Life Sciences Services"
+  },
+  {
+    "ticker": "DCAL",
+    "category": "Health Care",
+    "subcategory": "Labs & Life Sciences Services"
+  },
+  {
+    "ticker": "VIMTALABS",
+    "category": "Health Care",
+    "subcategory": "Labs & Life Sciences Services"
+  },
+  {
+    "ticker": "BROOKS",
+    "category": "Health Care",
+    "subcategory": "Labs & Life Sciences Services"
+  },
+  {
+    "ticker": "POWERGRID",
+    "category": "Utilities",
+    "subcategory": "Power Transmission & Distribution"
+  },
+  {
+    "ticker": "TATAPOWER",
+    "category": "Utilities",
+    "subcategory": "Power Transmission & Distribution"
+  },
+  {
+    "ticker": "TORNTPOWER",
+    "category": "Utilities",
+    "subcategory": "Power Transmission & Distribution"
+  },
+  {
+    "ticker": "PGINVIT",
+    "category": "Utilities",
+    "subcategory": "Power Transmission & Distribution"
+  },
+  {
+    "ticker": "BIRET",
+    "category": "Real Estate",
+    "subcategory": "Real Estate"
+  },
+  {
+    "ticker": "JYOTISTRUC",
+    "category": "Utilities",
+    "subcategory": "Power Transmission & Distribution"
+  },
+  {
+    "ticker": "UPL",
+    "category": "Materials",
+    "subcategory": "Fertilizers & Agro Chemicals"
+  },
+  {
+    "ticker": "COROMANDEL",
+    "category": "Materials",
+    "subcategory": "Fertilizers & Agro Chemicals"
+  },
+  {
+    "ticker": "FACT",
+    "category": "Materials",
+    "subcategory": "Fertilizers & Agro Chemicals"
+  },
+  {
+    "ticker": "BAYERCROP",
+    "category": "Materials",
+    "subcategory": "Fertilizers & Agro Chemicals"
+  },
+  {
+    "ticker": "CHAMBLFERT",
+    "category": "Materials",
+    "subcategory": "Fertilizers & Agro Chemicals"
+  },
+  {
+    "ticker": "DEEPAKFERT",
+    "category": "Materials",
+    "subcategory": "Fertilizers & Agro Chemicals"
+  },
+  {
+    "ticker": "UCOBANK",
+    "category": "Financials",
+    "subcategory": "Public Banks"
+  },
+  {
+    "ticker": "YESBANK",
+    "category": "Financials",
+    "subcategory": "Private Banks"
+  },
+  {
+    "ticker": "DWARKESH",
+    "category": "Consumer Staples",
+    "subcategory": "Sugar"
+  },
+  {
+    "ticker": "MIDINDIA",
+    "category": "Consumer Discretionary",
+    "subcategory": "Textiles"
+  },
+  {
+    "ticker": "BALRAMCHIN",
+    "category": "Consumer Staples",
+    "subcategory": "Sugar"
+  },
+  {
+    "ticker": "TRIVENI",
+    "category": "Consumer Staples",
+    "subcategory": "Sugar"
+  },
+  {
+    "ticker": "RENUKA",
+    "category": "Consumer Staples",
+    "subcategory": "Sugar"
+  },
+  {
+    "ticker": "PICCADIL",
+    "category": "Consumer Staples",
+    "subcategory": "Sugar"
+  },
+  {
+    "ticker": "EIDPARRY",
+    "category": "Consumer Staples",
+    "subcategory": "Sugar"
+  },
+  {
+    "ticker": "UGARSUGAR",
+    "category": "Consumer Staples",
+    "subcategory": "Sugar"
+  },
+  {
+    "ticker": "BANARISUG",
+    "category": "Consumer Staples",
+    "subcategory": "Sugar"
+  },
+  {
+    "ticker": "ACC",
+    "category": "Materials",
+    "subcategory": "Cement"
+  },
+  {
+    "ticker": "ABB",
+    "category": "Industrials",
+    "subcategory": "Heavy Electrical Equipments"
+  },
+  {
+    "ticker": "ADANIGREEN",
+    "category": "Utilities",
+    "subcategory": "Renewable Energy"
+  },
+  {
+    "ticker": "AFFLE",
+    "category": "Communication Services",
+    "subcategory": "Advertising"
+  },
+  {
+    "ticker": "ALEMBICLTD",
+    "category": "Health Care",
+    "subcategory": "Pharmaceuticals"
+  },
+  {
+    "ticker": "ALICON",
+    "category": "Consumer Discretionary",
+    "subcategory": "Auto Parts"
+  },
+  {
+    "ticker": "ATGL",
+    "category": "Utilities",
+    "subcategory": "Gas Distribution"
+  },
+  {
+    "ticker": "AWL",
+    "category": "Consumer Staples",
+    "subcategory": "FMCG - Foods"
+  },
+  {
+    "ticker": "BEL",
+    "category": "Information Technology",
+    "subcategory": "Electronic Equipments"
+  },
+  {
+    "ticker": "BIRLACORPN",
+    "category": "Materials",
+    "subcategory": "Cement"
+  },
+  {
+    "ticker": "CAMS",
+    "category": "Financials",
+    "subcategory": "Diversified Financials"
+  },
+  {
+    "ticker": "CDSL",
+    "category": "Financials",
+    "subcategory": "Stock Exchanges & Ratings"
+  },
+  {
+    "ticker": "COLPAL",
+    "category": "Consumer Staples",
+    "subcategory": "FMCG - Personal Products"
+  },
+  {
+    "ticker": "CREDITACC",
+    "category": "Financials",
+    "subcategory": "Consumer Finance"
+  },
+  {
+    "ticker": "DATAPATTNS",
+    "category": "Industrials",
+    "subcategory": "Aerospace & Defense Equipments"
+  },
+  {
+    "ticker": "DCBBANK",
+    "category": "Financials",
+    "subcategory": "Private Banks"
+  },
+  {
+    "ticker": "DLINKINDIA",
+    "category": "Information Technology",
+    "subcategory": "Technology Hardware"
+  },
+  {
+    "ticker": "DYCL",
+    "category": "Industrials",
+    "subcategory": "Cables"
+  },
+  {
+    "ticker": "ENDURANCE",
+    "category": "Consumer Discretionary",
+    "subcategory": "Auto Parts"
+  },
+  {
+    "ticker": "GAIL",
+    "category": "Utilities",
+    "subcategory": "Gas Distribution"
+  },
+  {
+    "ticker": "GEOJITFSL",
+    "category": "Financials",
+    "subcategory": "Investment Banking & Brokerage"
+  },
+  {
+    "ticker": "HAL",
+    "category": "Industrials",
+    "subcategory": "Aerospace & Defense Equipments"
+  },
+  {
+    "ticker": "HAVELLS",
+    "category": "Industrials",
+    "subcategory": "Electrical Components & Equipments"
+  },
+  {
+    "ticker": "INDIANHUME",
+    "category": "Utilities",
+    "subcategory": "Water Management"
+  },
+  {
+    "ticker": "INDUSTOWER",
+    "category": "Communication Services",
+    "subcategory": "Telecom Infrastructure"
+  },
+  {
+    "ticker": "IRCTC",
+    "category": "Communication Services",
+    "subcategory": "Online Services"
+  },
+  {
+    "ticker": "JPPOWER",
+    "category": "Utilities",
+    "subcategory": "Renewable Energy"
+  },
+  {
+    "ticker": "JUSTDIAL",
+    "category": "Communication Services",
+    "subcategory": "Online Services"
+  },
+  {
+    "ticker": "KAYNES",
+    "category": "Industrials",
+    "subcategory": "Electrical Components & Equipments"
+  },
+  {
+    "ticker": "KIRLPNU",
+    "category": "Industrials",
+    "subcategory": "Industrial Machinery"
+  },
+  {
+    "ticker": "MAHABANK",
+    "category": "Financials",
+    "subcategory": "Public Banks"
+  },
+  {
+    "ticker": "MANGALAM",
+    "category": "Health Care",
+    "subcategory": "Pharmaceuticals"
+  },
+  {
+    "ticker": "MCX",
+    "category": "Financials",
+    "subcategory": "Stock Exchanges & Ratings"
+  },
+  {
+    "ticker": "NAUKRI",
+    "category": "Communication Services",
+    "subcategory": "Online Services"
+  },
+  {
+    "ticker": "OBEROIRLTY",
+    "category": "Real Estate",
+    "subcategory": "Real Estate"
+  },
+  {
+    "ticker": "PAGEIND",
+    "category": "Consumer Discretionary",
+    "subcategory": "Apparel & Accessories"
+  },
+  {
+    "ticker": "PFC",
+    "category": "Financials",
+    "subcategory": "Specialized Finance"
+  },
+  {
+    "ticker": "PGHH",
+    "category": "Consumer Staples",
+    "subcategory": "FMCG - Personal Products"
+  },
+  {
+    "ticker": "PHOENIXLTD",
+    "category": "Real Estate",
+    "subcategory": "Real Estate"
+  },
+  {
+    "ticker": "PIIND",
+    "category": "Materials",
+    "subcategory": "Diversified Chemicals"
+  },
+  {
+    "ticker": "SUDARSCHEM",
+    "category": "Materials",
+    "subcategory": "Diversified Chemicals"
+  },
+  {
+    "ticker": "SYMPHONY",
+    "category": "Consumer Discretionary",
+    "subcategory": "Home Electronics & Appliances"
+  },
+  {
+    "ticker": "VBL",
+    "category": "Consumer Staples",
+    "subcategory": "Soft Drinks"
+  },
+  {
+    "ticker": "VGUARD",
+    "category": "Industrials",
+    "subcategory": "Electrical Components & Equipments"
+  },
+  {
+    "ticker": "WHEELS",
+    "category": "Consumer Discretionary",
+    "subcategory": "Auto Parts"
+  },
+  {
+    "ticker": "CGPOWER",
+    "category": "Industrials",
+    "subcategory": "Heavy Electrical Equipments"
+  },
+  {
+    "ticker": "BHEL",
+    "category": "Industrials",
+    "subcategory": "Heavy Electrical Equipments"
+  },
+  {
+    "ticker": "GVPIL",
+    "category": "Industrials",
+    "subcategory": "Smallcap"
+  },
+  {
+    "ticker": "INOXWIND",
+    "category": "Industrials",
+    "subcategory": "Heavy Electrical Equipments"
+  },
+  {
+    "ticker": "NTPCGREEN",
+    "category": "Utilities",
+    "subcategory": "Renewable Energy"
+  },
+  {
+    "ticker": "NHPC",
+    "category": "Utilities",
+    "subcategory": "Renewable Energy"
+  },
+  {
+    "ticker": "PREMIERENE",
+    "category": "Utilities",
+    "subcategory": "Renewable Energy"
+  },
+  {
+    "ticker": "SJVN",
+    "category": "Utilities",
+    "subcategory": "Renewable Energy"
+  },
+  {
+    "ticker": "ACMESOLAR",
+    "category": "Utilities",
+    "subcategory": "Renewable Energy"
+  },
+  {
+    "ticker": "BCG",
+    "category": "Communication Services",
+    "subcategory": "Advertising"
+  },
+  {
+    "ticker": "SIGNPOST",
+    "category": "Communication Services",
+    "subcategory": "Advertising"
+  },
+  {
+    "ticker": "MMWL",
+    "category": "Communication Services",
+    "subcategory": "Advertising"
+  },
+  {
+    "ticker": "PRAVEG",
+    "category": "Communication Services",
+    "subcategory": "Advertising"
+  },
+  {
+    "ticker": "RKSWAMY",
+    "category": "Communication Services",
+    "subcategory": "Advertising"
+  },
+  {
+    "ticker": "BOSCHLTD",
+    "category": "Consumer Discretionary",
+    "subcategory": "Auto Parts"
+  },
+  {
+    "ticker": "MSUMI",
+    "category": "Industrials",
+    "subcategory": "Cables"
+  },
+  {
+    "ticker": "AADIIND",
+    "category": "Industrials",
+    "subcategory": "Stationery"
+  },
+  {
+    "ticker": "SCHAEFFLER",
+    "category": "Consumer Discretionary",
+    "subcategory": "Auto Parts"
+  },
+  {
+    "ticker": "SOLARINDS",
+    "category": "Materials",
+    "subcategory": "Commodity Chemicals"
+  },
+  {
+    "ticker": "LINDEINDIA",
+    "category": "Materials",
+    "subcategory": "Commodity Chemicals"
+  },
+  {
+    "ticker": "SUMICHEM",
+    "category": "Materials",
+    "subcategory": "Commodity Chemicals"
+  },
+  {
+    "ticker": "DEEPAKNTR",
+    "category": "Materials",
+    "subcategory": "Commodity Chemicals"
+  },
+  {
+    "ticker": "HSCL",
+    "category": "Materials",
+    "subcategory": "Commodity Chemicals"
+  },
+  {
+    "ticker": "GUJGASLTD",
+    "category": "Utilities",
+    "subcategory": "Gas Distribution"
+  },
+  {
+    "ticker": "IGL",
+    "category": "Utilities",
+    "subcategory": "Gas Distribution"
+  },
+  {
+    "ticker": "GSPL",
+    "category": "Utilities",
+    "subcategory": "Gas Distribution"
+  },
+  {
+    "ticker": "MGL",
+    "category": "Utilities",
+    "subcategory": "Gas Distribution"
+  },
+  {
+    "ticker": "HONAUT",
+    "category": "Information Technology",
+    "subcategory": "Electronic Equipments"
+  },
+  {
+    "ticker": "SYRMA",
+    "category": "Information Technology",
+    "subcategory": "Electronic Equipments"
+  },
+  {
+    "ticker": "PGEL",
+    "category": "Information Technology",
+    "subcategory": "Electronic Equipments"
+  },
+  {
+    "ticker": "CPPLUS",
+    "category": "Information Technology",
+    "subcategory": "Electronic Equipments"
+  },
+  {
+    "ticker": "ZENTEC",
+    "category": "Information Technology",
+    "subcategory": "Electronic Equipments"
+  },
+  {
+    "ticker": "ABCAPITAL",
+    "category": "Financials",
+    "subcategory": "Diversified Financials"
+  },
+  {
+    "ticker": "MOTILALOFS",
+    "category": "Financials",
+    "subcategory": "Diversified Financials"
+  },
+  {
+    "ticker": "AIIL",
+    "category": "Financials",
+    "subcategory": "Diversified Financials"
+  },
+  {
+    "ticker": "CHOLAHLDNG",
+    "category": "Financials",
+    "subcategory": "Diversified Financials"
+  },
+  {
+    "ticker": "PEL",
+    "category": "Financials",
+    "subcategory": "Diversified Financials"
+  },
+  {
+    "ticker": "CASTROLIND",
+    "category": "Materials",
+    "subcategory": "Commodity Chemicals"
+  },
+  {
+    "ticker": "BSE",
+    "category": "Financials",
+    "subcategory": "Stock Exchanges & Ratings"
+  },
+  {
+    "ticker": "CRISIL",
+    "category": "Financials",
+    "subcategory": "Stock Exchanges & Ratings"
+  },
+  {
+    "ticker": "NSDL",
+    "category": "Financials",
+    "subcategory": "Stock Exchanges & Ratings"
+  },
+  {
+    "ticker": "ICRA",
+    "category": "Financials",
+    "subcategory": "Stock Exchanges & Ratings"
+  },
+  {
+    "ticker": "GODREJCP",
+    "category": "Consumer Staples",
+    "subcategory": "FMCG - Personal Products"
+  },
+  {
+    "ticker": "DABUR",
+    "category": "Consumer Staples",
+    "subcategory": "FMCG - Personal Products"
+  },
+  {
+    "ticker": "MARCO",
+    "category": "Industrials",
+    "subcategory": "Cables"
+  },
+  {
+    "ticker": "GILLETTE",
+    "category": "Consumer Staples",
+    "subcategory": "FMCG - Personal Products"
+  },
+  {
+    "ticker": "BDL",
+    "category": "Industrials",
+    "subcategory": "Aerospace & Defense Equipments"
+  },
+  {
+    "ticker": "UNIMECH",
+    "category": "Industrials",
+    "subcategory": "Aerospace & Defense Equipments"
+  },
+  {
+    "ticker": "PARAS",
+    "category": "Industrials",
+    "subcategory": "Aerospace & Defense Equipments"
+  },
+  {
+    "ticker": "ROSSTECH",
+    "category": "Industrials",
+    "subcategory": "Aerospace & Defense Equipments"
+  },
+  {
+    "ticker": "REDINGTON",
+    "category": "Information Technology",
+    "subcategory": "Technology Hardware"
+  },
+  {
+    "ticker": "OPTIEMUS",
+    "category": "Information Technology",
+    "subcategory": "Technology Hardware"
+  },
+  {
+    "ticker": "TRUEGREEN",
+    "category": "Consumer Discretionary",
+    "subcategory": "Textiles"
+  },
+  {
+    "ticker": "RPTECH",
+    "category": "Information Technology",
+    "subcategory": "Technology Hardware"
+  },
+  {
+    "ticker": "MAGSON",
+    "category": "Consumer Staples",
+    "subcategory": "FMCG - Foods"
+  },
+  {
+    "ticker": "KEI",
+    "category": "Industrials",
+    "subcategory": "Cables"
+  },
+  {
+    "ticker": "RRKABEL",
+    "category": "Industrials",
+    "subcategory": "Cables"
+  },
+  {
+    "ticker": "FINCABLES",
+    "category": "Industrials",
+    "subcategory": "Cables"
+  },
+  {
+    "ticker": "DCXINDIA",
+    "category": "Industrials",
+    "subcategory": "Cables"
+  },
+  {
+    "ticker": "SONACOMS",
+    "category": "Consumer Discretionary",
+    "subcategory": "Auto Parts"
+  },
+  {
+    "ticker": "IIFL",
+    "category": "Financials",
+    "subcategory": "Investment Banking & Brokerage"
+  },
+  {
+    "ticker": "ISEC",
+    "category": "Financials",
+    "subcategory": "Investment Banking & Brokerage"
+  },
+  {
+    "ticker": "ANGEL",
+    "category": "Consumer Discretionary",
+    "subcategory": "Textiles"
+  },
+  {
+    "ticker": "JMFINANCIL",
+    "category": "Financials",
+    "subcategory": "Investment Banking & Brokerage"
+  },
+  {
+    "ticker": "POLYCAB",
+    "category": "Industrials",
+    "subcategory": "Electrical Components & Equipments"
+  },
+  {
+    "ticker": "APARINDS",
+    "category": "Industrials",
+    "subcategory": "Electrical Components & Equipments"
+  },
+  {
+    "ticker": "OLECTRA",
+    "category": "Industrials",
+    "subcategory": "Electrical Components & Equipments"
+  },
+  {
+    "ticker": "WABAG",
+    "category": "Utilities",
+    "subcategory": "Water Management"
+  },
+  {
+    "ticker": "EIEL",
+    "category": "Utilities",
+    "subcategory": "Water Management"
+  },
+  {
+    "ticker": "DENTA",
+    "category": "Utilities",
+    "subcategory": "Water Management"
+  },
+  {
+    "ticker": "POLYSIL",
+    "category": "Utilities",
+    "subcategory": "Water Management"
+  },
+  {
+    "ticker": "FELIX",
+    "category": "Utilities",
+    "subcategory": "Water Management"
+  },
+  {
+    "ticker": "GTLINFRA",
+    "category": "Communication Services",
+    "subcategory": "Telecom Infrastructure"
+  },
+  {
+    "ticker": "SARTELE",
+    "category": "Communication Services",
+    "subcategory": "Telecom Infrastructure"
+  },
+  {
+    "ticker": "SUYOG",
+    "category": "Communication Services",
+    "subcategory": "Telecom Infrastructure"
+  },
+  {
+    "ticker": "KDL",
+    "category": "Communication Services",
+    "subcategory": "Telecom Infrastructure"
+  },
+  {
+    "ticker": "GTL",
+    "category": "Communication Services",
+    "subcategory": "Telecom Infrastructure"
+  },
+  {
+    "ticker": "MATRIMONY",
+    "category": "Communication Services",
+    "subcategory": "Online Services"
+  },
+  {
+    "ticker": "SWIGGY",
+    "category": "Communication Services",
+    "subcategory": "Online Services"
+  },
+  {
+    "ticker": "POLICYBZR",
+    "category": "Communication Services",
+    "subcategory": "Online Services"
+  },
+  {
+    "ticker": "PAYTM",
+    "category": "Communication Services",
+    "subcategory": "Online Services"
+  },
+  {
+    "ticker": "CUMMINSIND",
+    "category": "Industrials",
+    "subcategory": "Industrial Machinery"
+  },
+  {
+    "ticker": "THERMAX",
+    "category": "Industrials",
+    "subcategory": "Industrial Machinery"
+  },
+  {
+    "ticker": "AIAENG",
+    "category": "Industrials",
+    "subcategory": "Industrial Machinery"
+  },
+  {
+    "ticker": "SKFINDIA",
+    "category": "Industrials",
+    "subcategory": "Industrial Machinery"
+  },
+  {
+    "ticker": "TIMKEN",
+    "category": "Industrials",
+    "subcategory": "Industrial Machinery"
+  },
+  {
+    "ticker": "DLF",
+    "category": "Real Estate",
+    "subcategory": "Real Estate"
+  },
+  {
+    "ticker": "RATNABHUMI",
+    "category": "Real Estate",
+    "subcategory": "Real Estate"
+  },
+  {
+    "ticker": "PRESTIGE",
+    "category": "Real Estate",
+    "subcategory": "Real Estate"
+  },
+  {
+    "ticker": "GODREJPROP",
+    "category": "Real Estate",
+    "subcategory": "Real Estate"
+  },
+  {
+    "ticker": "SAFARI",
+    "category": "Consumer Discretionary",
+    "subcategory": "Apparel & Accessories"
+  },
+  {
+    "ticker": "CAMPUS",
+    "category": "Consumer Discretionary",
+    "subcategory": "Apparel & Accessories"
+  },
+  {
+    "ticker": "ARVIND",
+    "category": "Consumer Discretionary",
+    "subcategory": "Apparel & Accessories"
+  },
+  {
+    "ticker": "RAYMONDLSL",
+    "category": "Consumer Discretionary",
+    "subcategory": "Apparel & Accessories"
+  },
+  {
+    "ticker": "PGIL",
+    "category": "Consumer Discretionary",
+    "subcategory": "Apparel & Accessories"
+  },
+  {
+    "ticker": "IRFC",
+    "category": "Financials",
+    "subcategory": "Specialized Finance"
+  },
+  {
+    "ticker": "RECLTD",
+    "category": "Financials",
+    "subcategory": "Specialized Finance"
+  },
+  {
+    "ticker": "RVNL",
+    "category": "Financials",
+    "subcategory": "Specialized Finance"
+  },
+  {
+    "ticker": "HUDCO",
+    "category": "Financials",
+    "subcategory": "Specialized Finance"
+  },
+  {
+    "ticker": "IREDA",
+    "category": "Financials",
+    "subcategory": "Specialized Finance"
+  },
+  {
+    "ticker": "PIDILITIND",
+    "category": "Materials",
+    "subcategory": "Diversified Chemicals"
+  },
+  {
+    "ticker": "SRF",
+    "category": "Materials",
+    "subcategory": "Diversified Chemicals"
+  },
+  {
+    "ticker": "GODREJIND",
+    "category": "Materials",
+    "subcategory": "Diversified Chemicals"
+  },
+  {
+    "ticker": "TATACHEM",
+    "category": "Materials",
+    "subcategory": "Diversified Chemicals"
+  },
+  {
+    "ticker": "BASF",
+    "category": "Materials",
+    "subcategory": "Diversified Chemicals"
+  },
+  {
+    "ticker": "VIKRAN",
+    "category": "Utilities",
+    "subcategory": "Power Transmission & Distribution"
+  },
+  {
+    "ticker": "MINDACORP",
+    "category": "Consumer Discretionary",
+    "subcategory": "Auto Parts"
+  },
+  {
+    "ticker": "TFCILTD",
+    "category": "Financials",
+    "subcategory": "Specialized Finance"
+  },
+  {
+    "ticker": "DIXON",
+    "category": "Consumer Discretionary",
+    "subcategory": "Home Electronics & Appliances"
+  },
+  {
+    "ticker": "VOLTAS",
+    "category": "Consumer Discretionary",
+    "subcategory": "Home Electronics & Appliances"
+  },
+  {
+    "ticker": "BLUESTARCO",
+    "category": "Consumer Discretionary",
+    "subcategory": "Home Electronics & Appliances"
+  },
+  {
+    "ticker": "AMBER",
+    "category": "Consumer Discretionary",
+    "subcategory": "Home Electronics & Appliances"
+  },
+  {
+    "ticker": "CROMPTON",
+    "category": "Consumer Discretionary",
+    "subcategory": "Home Electronics & Appliances"
+  },
+  {
+    "ticker": "ORIBEVER",
+    "category": "Consumer Staples",
+    "subcategory": "Soft Drinks"
+  },
+  {
+    "ticker": "VELOX",
+    "category": "Soft Drinks",
+    "subcategory": "Smallcap"
+  }
+]
