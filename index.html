@@ -9,41 +9,12 @@
   <title>Algo Trader LLM</title>
   <script src="https://telegram.org/js/telegram-web-app.js?59"></script>
 
-  <script type="module" crossorigin src="/telegram_algo_trader_llm/assets/index-Cw1Sbbej.js"></script>
+  <script type="module" crossorigin src="/telegram_algo_trader_llm/assets/index-CCxjr9h6.js"></script>
   <link rel="stylesheet" crossorigin href="/telegram_algo_trader_llm/assets/index-Dtn62Xmo.css">
 </head>
 
 <body>
   <div id="root"></div>
-
-  <script>
-    let tg = null;
-
-    // poll until Telegram.WebApp exists
-    const interval = setInterval(() => {
-      if (window.Telegram && window.Telegram.WebApp) {
-        window.Telegram.WebApp.ready();
-        tg = window.Telegram.WebApp;
-        clearInterval(interval);
-        console.log("Telegram WebApp ready!");
-      }
-    }, 100);
-
-    function sendToBot() {
-      if (tg) {
-        tg.sendData(JSON.stringify({ stock: "AAPL", price: 123.45 }));
-        // tg.close();
-        alert("Sent data to bot!");
-
-      } else {
-        alert("Not in Telegram WebApp context!");
-      }
-    }
-  </script>
-
-  <button onclick="sendToBot()">Send to Bot</button>
-
-
 </body>
 
 </html>
