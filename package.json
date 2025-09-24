@@ -1,7 +1,7 @@
 {
   "name": "telegram_algo_trader_webapp",
   "private": true,
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "homepage": "https://aqua-4.github.io/telegram_algo_trader_llm/",
   "scripts": {
@@ -14,7 +14,8 @@
   },
   "dependencies": {
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.9.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.35.0",
