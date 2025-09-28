@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react";
 import frontendMap from "../data/frontend_map.json";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function LlmForm() {
   const [stock, setStock] = useState(frontendMap[0].ticker);
   const [sector, setSector] = useState(frontendMap[0].category);
+  const [subSector, setSubSector] = useState(frontendMap[0].subcategory);
   const [price, setPrice] = useState("");
   const [currentPrice, setCurrentPrice] = useState("");
   const [tg, setTg] = useState(null);
@@ -14,24 +16,22 @@ function LlmForm() {
     s.ticker.toLowerCase().includes(search.toLowerCase())
   );
 
-  // Ensure sector updates when stock changes
+  // Ensure sector & subsector updates when stock changes
   useEffect(() => {
     const found = frontendMap.find((s) => s.ticker === stock);
     setSector(found ? found.category : "");
+    setSubSector(found ? found.subcategory : "");
   }, [stock]);
 
-  // Ensure stock auto-updates when search result changes
+  // Auto-update stock when search changes
   useEffect(() => {
     if (filteredStocks.length > 0) {
-      // If current stock is not in filtered list, pick first result
       const exists = filteredStocks.some((s) => s.ticker === stock);
-      if (!exists) {
-        setStock(filteredStocks[0].ticker);
-      }
+      if (!exists) setStock(filteredStocks[0].ticker);
     } else {
-      // Nothing found, clear stock & sector
       setStock("");
       setSector("");
+      setSubSector("");
     }
   }, [filteredStocks]);
 
@@ -45,27 +45,19 @@ function LlmForm() {
         console.log("Telegram WebApp is ready!");
       }
     }, 100);
-
     return () => clearInterval(interval);
   }, []);
 
   const handleSubmit = () => {
-    if (!stock) {
-      alert("Please select a valid stock");
-      return;
-    }
-    if (!price) {
-      alert("Please enter a price");
-      return;
-    }
-    if (!currentPrice) {
-      alert("Please enter a current market price");
+    if (!stock || !price || !currentPrice) {
+      alert("Please fill all fields");
       return;
     }
 
     const payload = {
       stock,
       sector,
+      subSector,
       price: parseFloat(price),
       currentPrice: parseFloat(currentPrice),
     };
@@ -73,7 +65,6 @@ function LlmForm() {
     if (tg) {
       payload["type"] = "stock_analysis";
       payload["initData"] = tg.initData;
-
       tg.sendData(JSON.stringify(payload));
       tg.close();
     } else {
@@ -83,72 +74,93 @@ function LlmForm() {
   };
 
   return (
-    <div style={{ padding: 20, fontFamily: "sans-serif" }}>
-      <h2>📊 Stock Analysis</h2>
+    <div className="m-2">
+      <h2 className="mb-4 text-center">📊 Stock Analysis</h2>
+      <form>
+        {/* Search */}
+        <div className="mb-3">
+          <label className="form-label">Search Stock</label>
+          <input
+            type="text"
+            className="form-control"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            placeholder="Type to search stock"
+          />
+        </div>
 
-      <label>Search Stock:</label>
-      <input
-        type="text"
-        value={search}
-        onChange={(e) => setSearch(e.target.value)}
-        placeholder="Type to search stock"
-        style={{ marginBottom: 10, width: "100%" }}
-      />
+        {/* Stock Dropdown */}
+        <div className="mb-3">
+          <label className="form-label">Choose Stock</label>
+          <select
+            className="form-select"
+            value={stock}
+            onChange={(e) => setStock(e.target.value)}
+          >
+            {filteredStocks.length === 0 ? (
+              <option disabled>No stocks found</option>
+            ) : (
+              filteredStocks.map((s) => (
+                <option key={s.ticker} value={s.ticker}>
+                  {s.ticker}
+                </option>
+              ))
+            )}
+          </select>
+        </div>
 
-      <br />
-      <br />
+        {/* Sector */}
+        <div className="mb-3">
+          <label className="form-label">Sector</label>
+          <input type="text" className="form-control" value={sector} readOnly />
+        </div>
 
-      <label>Choose Stock:</label>
-      <select
-        value={stock}
-        onChange={(e) => setStock(e.target.value)}
-        style={{ width: "100%" }}
-      >
-        {filteredStocks.length === 0 ? (
-          <option disabled>No stocks found</option>
-        ) : (
-          filteredStocks.map((s) => (
-            <option key={s.ticker} value={s.ticker}>
-              {s.ticker}
-            </option>
-          ))
-        )}
-      </select>
+        {/* SubSector */}
+        <div className="mb-3">
+          <label className="form-label">Sub-Sector</label>
+          <input
+            type="text"
+            className="form-control"
+            value={subSector}
+            readOnly
+          />
+        </div>
 
-      <br />
-      <br />
+        {/* Entry Price */}
+        <div className="mb-3">
+          <label className="form-label">Entry Price</label>
+          <input
+            type="number"
+            step="0.01"
+            className="form-control"
+            value={price}
+            onChange={(e) => setPrice(e.target.value)}
+          />
+        </div>
 
-      <label>Sector:</label>
-      <input type="text" value={sector} readOnly />
+        {/* Current Price */}
+        <div className="mb-3">
+          <label className="form-label">Current Market Price</label>
+          <input
+            type="number"
+            step="0.01"
+            className="form-control"
+            value={currentPrice}
+            onChange={(e) => setCurrentPrice(e.target.value)}
+          />
+        </div>
 
-      <br />
-      <br />
-
-      <label>Entry Price:</label>
-      <input
-        type="number"
-        step="0.01"
-        value={price}
-        onChange={(e) => setPrice(e.target.value)}
-      />
-
-      <br />
-      <br />
-
-      <label>Current Market Price:</label>
-      <input
-        type="number"
-        step="0.01"
-        value={currentPrice}
-        onChange={(e) => setCurrentPrice(e.target.value)}
-      />
-
-      <br />
-      <br />
-
-      <button onClick={handleSubmit} style={{ padding: "0.6em 1.2em" }}>
-        Submit
-      </button>
+        {/* Submit */}
+        <div className="d-grid">
+          <button
+            type="button"
+            className="btn btn-primary btn-lg"
+            onClick={handleSubmit}
+          >
+            Submit
+          </button>
+        </div>
+      </form>
     </div>
   );
 }

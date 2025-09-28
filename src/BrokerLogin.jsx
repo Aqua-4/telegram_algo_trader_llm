@@ -35,11 +35,7 @@ function BrokerLogin() {
     const encodedParamString = encodeURIComponent(localUrl);
     const redirect = `https://t.me/aqua4_pi_bot?text=${encodedParamString}`;
 
-    // const paramString = new URLSearchParams(brokerParams).toString();
-    // const encoded = encodeURIComponent(paramString);
-    // const redirect = `https://t.me/aqua4_algotrader_bot/AlgoTraderApp?startapp=${encoded}`;
-
-    console.log("Redirect URL:", redirect);
+    // console.log("Redirect URL:", redirect);
 
     setGithubLink(redirect);
     setCopyLink(localUrl);
@@ -57,31 +53,26 @@ function BrokerLogin() {
   }, []);
 
   return (
-    <div style={{ padding: 20, fontFamily: "sans-serif" }}>
+    <div class="m-2">
       <h2>Broker Login</h2>
 
       {githubLink && (
-        <div style={{ marginTop: 20 }}>
-          <p style={{ marginBottom: 10 }}>
-            Paste this link in the Telegram chat with
-            @aqua4_pi_bot to login.
-            <br />
-            <b>Note:</b> The link is also copied to your clipboard, so you can directly paste it in Telegram.
-            <br />
-            If nothing happens, click the button again.
+        <div class="m-2 d-grid">
+          <p>
+            <span>
+            Click the button to Copy & then Paste this link in the Telegram chat with @aqua4_pi_bot to login.
+            </span>
+            <br></br>
+            <span class="badge text-bg-info">
+              <b>Note:</b> The link is also copied to your clipboard, so you can directly paste it in Telegram.
+            </span>
+            <span class="badge text-bg-secondary">
+              If nothing happens, click the button again.
+            </span>
           </p>
             <button
               onClick={copyAndRedirect}
-              style={{
-                backgroundColor: "#24292f", // GitHub dark
-                color: "white",
-                border: "none",
-                padding: "10px 20px",
-                borderRadius: "8px",
-                cursor: "pointer",
-                fontWeight: "bold",
-                fontSize: "1em",
-              }}
+              className="btn btn-primary btn-lg"
             >
               Click the button to copy the link
             </button>
